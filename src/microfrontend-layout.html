@@ -17,26 +17,52 @@
 
   -->
 
-  <!-- <main>
-    <route default>
-      <application name="@single-spa/welcome"></application>
-    </route>
-  </main> -->
-
   <main class="h-100">
     <div class="container h-100">
       <div class="row h-100">
         <div class="col-sm-4 d-flex justify-content-center align-items-center" style="background-color:green;">
-          <application name="@app-react/app-react" loader="mainContentLoader" error="mfError"></application>
+          <application name="@react-app/react-app" loader="mainContentLoader" error="mfError"></application>
         </div>
         <div class="col-sm-4 d-flex justify-content-center align-items-center" style="background-color:yellow;">
-          <application name="app-angular" loader="mainContentLoader" error="mfError"></application>
+          <application name="angular-app" loader="mainContentLoader" error="mfError"></application>
         </div>
         <div class="col-sm-4 d-flex justify-content-center align-items-center" style="background-color:red;">
-          ABC
+          <application name="angular-app-b" loader="mainContentLoader" error="mfError"></application>
         </div>
       </div>
     </div>
-  </main>
 
+    <!-- <div class="container h-100">
+      <div class="row h-100">
+        <div class="col-sm-4 justify-content-center align-items-center" style="background-color:aqua;">
+          <application name="@react-app/react-app" loader="mainContentLoader" error="navError"></application>
+        </div>
+        <div class="col-sm-4 justify-content-center align-items-center" style="background-color:pink;">
+          <application name="angular-app" loader="mainContentLoader" error="navError"></application>
+        </div>
+        <div class="col-sm-4 justify-content-center align-items-center" style="background-color:green;">
+          <application name="angular-app-b" loader="mainContentLoader" error="navError"></application>
+        </div>
+      </div>
+    </div> -->
+
+    <!-- <div style="width: 100%; height: calc(100vh - 16px);; background-color: green;">
+      <div style="width: 30%; height: 100%; background-color: yellow; display:inline-block">
+        <application name="@react-app/react-app" loader="mainContentLoader" error="navError"></application>
+      </div>
+      <div style="width: 35%; height: 100%; background-color: aqua; display:inline-block">
+        <application name="angular-app" loader="mainContentLoader" error="navError"></application>
+      </div>
+      <div style="width: 35%; height: 100%; background-color: mediumblue; display:inline-block">
+        <application name="angular-app-b" loader="mainContentLoader" error="navError"></application>
+      </div>
+    </div> -->
+
+    <!-- <route path="/angular">
+      <application name="angular-app"></application>
+    </route>
+    <route default>
+      <application name="@react-app/react-app"></application>
+    </route> -->
+  </main>
 </single-spa-router>
