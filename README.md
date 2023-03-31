@@ -124,3 +124,60 @@ Install packages
 ```
 npm i
 ```
+
+## Create single spa React
+
+```
+create-single-spa
+```
+
+Select options as below:
+
+```
+Directory for new project: .
+
+Select type to generate: single-spa application / parcel
+
+Which framework do you want to use? angular
+
+? Project name (can use letters, numbers, dash or underscore) app-angular
+
+? Would you like to add Angular routing? Yes
+
+? Which stylesheet format would you like to use? CSS
+
+The package single-spa-angular@8.1.0 will be installed and executed.
+Would you like to proceed? (Y/n) y
+
+Does your application use Angular routing? (Y/n) y
+```
+
+Move to app-angular
+
+```
+cd app-angular
+```
+
+Select options as below:
+
+```
+Directory for new project app-react
+
+Select type to generate single-spa application / parcel
+
+Which framework do you want to use? react
+
+Which package manager do you want to use? npm
+
+Will this project use Typescript? Yes
+
+Organization name (can use letters, numbers, dash or underscore) app-react
+
+Project name (can use letters, numbers, dash or underscore) app-react
+```
+
+Install packages
+
+```
+npm i
+```
