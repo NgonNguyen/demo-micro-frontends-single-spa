@@ -1,0 +1,1 @@
+This is the ReadMe file for micro frontends single spa.
